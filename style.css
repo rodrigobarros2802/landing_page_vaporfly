@@ -1,240 +1,176 @@
-@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 :root {
     --salmao: #ee9179;
+    --preto: #111;
+    --branco: #fff;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
     box-sizing: border-box;
-}
-
-body {
-    background-color: var(--salmao);
     font-family: 'Lato', sans-serif;
 }
 
-header {
-    min-height: 50px;
-    padding-top: 20px;
-}
-
-.logo-img {
-    width: 10%;
+.circle {
+    background: var(--salmao);
     position: absolute;
-    left: 2%;
-    margin-top: 10px;
+    clip-path: circle(800px at top right);
+    width: 100vw;
+    height: 100vh;
 }
 
-main {
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
+.secao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    width: 100%;
+    height: 100vh;
+    background: var(--branco);
 }
 
-article > h1 {
+
+header { 
     position: absolute;
-    color: white;
-    top: 30%;
-    left: 16.6%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 100px;
 }
 
-.gif {
-    position: absolute;
-    right: 66%;
-    top: 35%;
-    border-radius: 10px;
+.logo { 
+    max-width: 100px;
+    display: flex;
+    align-items: center;
 }
 
-article > h6 {
-    position: absolute;
-    color: white;
-    top: 70%;
-    left: 7.6%;
+.secao ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/*Links*/
-nav {
-    text-align: right;
-    font-size: 14px;
-    font-weight: bold;
+.secao li {
+    list-style: none;
+    margin-left: 40px;
 }
 
-nav > a {
+.secao header li a {
     text-decoration: none;
-    color: white;
-    margin-right: 20px;
+    font-weight: 700;
+    color: var(--branco);
 }
 
-a:hover{
-    text-decoration: underline 2px white;
-    text-underline-offset: 5px;
+.secao header li a:hover {
+    border-bottom: 2px solid var(--branco);
 }
 
-.lancamento {
-    color: black;
-    text-decoration: underline 2px;
-    text-underline-offset: 10px;
+.conteudoBox {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
 }
 
-.lancamento:hover {
-    color: white;
+.conteudoBox .textoBox {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
 }
 
-/*Imagens*/
-.tenis-img {
-    position: absolute;
-    width: 45%;
-    right: 10%;
-    top: 40%;
-    transform: rotate(-40deg);
+.textoBox h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 1.5em;
+    color: var(--preto);
 }
 
-.tenis-img-1 {
-    position: absolute;
-    width: 5%;
-    right: 5%;
-    bottom: 35%;
+.textoBox span {
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.textoBox p {
+    color: var(--preto);
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textoBox a {
+    background: var(--preto);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 8px 50px;
+    text-transform: uppercase;
+    font-weight: 900;
     border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 2px;
+    display: inline-block;
+    transition: 0.5s;
 }
 
-.tenis-img-2 {
+.textoBox a:hover {
+    transform: translateY(-10px);
+}
+
+.imagemBox {
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.imagemBox img {
+    max-width: 700px;
+    transform: rotate(-15deg);
+}
+
+.thumb {
     position: absolute;
-    width: 5%;
-    right: 5%;
-    bottom: 23%;
+    left: 0;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.thumb li {
+    list-style: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover {
+    transform: translateY(-15px);
+}
+
+.thumb img {
+    width: 100px;
+    border: 2px solid var(--preto);
     border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 2px;
 }
 
-.tenis-img-3 {
-    position: absolute;
-    width: 5%;
-    right: 5%;
-    bottom: 11%;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 2px;
-}
 
-.tenis-img-4 {
-    position: absolute;
-    width: 5%;
-    right: 5%;
-    bottom: -1%;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 2px;
-}
 
-.tenis-img-1:hover {
-    border: 2px solid black;
-}
 
-.tenis-img-2:hover {
-    border: 2px solid black;
-}
 
-.tenis-img-3:hover {
-    border: 2px solid black;
-}
 
-.tenis-img-4:hover {
-    border: 2px solid black;
-}
 
-/*Botão*/
-button {
-    position: absolute;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-    width: 10%;
-    height: 5%;
-    right: 67%;
-    top: 80%;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 2px;
-}
 
-button:hover {
-    border: 2px solid black;
-}
 
-.tenis-img-5 {
-    position: absolute;
-    width: 5%;
-    top: 110%;
-    right: 82.5%;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 2px;
-}
 
-.tenis-img-6 {
-    position: absolute;
-    width: 5%;
-    top: 110%;
-    right: 77%;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 2px;
-}
 
-.tenis-img-7 {
-    position: absolute;
-    width: 5%;
-    top: 110%;
-    right: 71.5%;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 2px;
-}
 
-.tenis-img-8 {
-    position: absolute;
-    width: 5%;
-    top: 110%;
-    right: 66%;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 2px;
-}
 
-.tenis-img-5:hover {
-    border: 2px solid black;
-}
 
-.tenis-img-6:hover {
-    border: 2px solid black;
-}
-
-.tenis-img-7:hover {
-    border: 2px solid black;
-}
-
-.tenis-img-8:hover {
-    border: 2px solid black;
-}
-
-footer {
-    position: absolute;
-    color: white;
-    font-weight: bold;
-    font-size: 0.8em;
-    padding: 5px;
-    margin: auto;
-    top: 150%;
-    right: 40%;
-}
