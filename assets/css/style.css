@@ -137,7 +137,7 @@ header {
 }
 
 .imagemBox img {
-    max-width: 700px;
+    width: 800px;
     transform: rotate(-15deg);
 }
 
