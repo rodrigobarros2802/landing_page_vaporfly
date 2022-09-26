@@ -1,26 +1,19 @@
-# Página Web Tênis Nike Vaporfly
+# :triangular_ruler: Nome do Projeto
 
-Este é o meu primeiro projeto desenvolvido em HTML e CSS3 de um Tênis da Nike para maratonistas.
+# :memo: Índice
 
+# :chart_with_upwards_trend: Proposta
 
-##
+# :trophy: Desafio
 
-# Tecnologias
+# :hammer_and_wrench: Tecnologias
 
-* HTML
-* CSS3
+# :dart: Objetivo
 
-##
+# :open_book: Aprendizado
 
-# Print do Projeto
+# :camera: Imagens do Projeto
 
+# :link: Links
 
-
-
-##
-
-# Link do Projeto
-
-Visualize o projeto em seu navegador.
-
-https://rodrigobarros2802.github.io/landing_page_vaporfly/
+# :technologist: Autor
