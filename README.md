@@ -49,6 +49,10 @@
 </p>
 
 
-# :link: Links
+# :link: Link Deploy
+Deploy - https://relaxed-taiyaki-7a7e0c.netlify.app/
 
 # :technologist: Autor
+* LinkedIn - https://www.linkedin.com/in/rodrigobarros2802/
+
+* GitHub - https://github.com/rodrigobarros2802
