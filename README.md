@@ -7,6 +7,7 @@
 
 # :trophy: Desafio
 * O Maior desafio desse projeto foi desenvolver do absoluto zero sem ajuda de um guia tutorial proposto em curso, com o prazo máximo de entrega de 6 dias. 
+* Deixar o projeto responsivo em todos os dispositivos móveis.
 
 # :hammer_and_wrench: Tecnologias
 * JavaScript
