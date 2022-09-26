@@ -3,14 +3,23 @@
 # :memo: Índice
 
 # :chart_with_upwards_trend: Proposta
+* Meu primeiro projeto criado do absoluto zero, que foi proposto na mentoria de DEV's na qual eu faço parte chamada Conquiste Sua Vaga.
 
 # :trophy: Desafio
+* O Maior desafio desse projeto foi desenvolver do absoluto zero sem ajuda de um guia tutorial proposto em curso, com o prazo máximo de entrega de 6 dias. 
 
 # :hammer_and_wrench: Tecnologias
+* JavaScript
+* HTML
+* CSS
 
 # :dart: Objetivo
+* Meu maior objetivo nesse projeto, foi melhorar ainda mais o que eu tinha feito no início dele, pois quando criei esse projeto eu sabia que tinha muito a melhorar e ainda tem, sendo que sinto uma evolução muito positiva em relação a primeira criação.
 
 # :open_book: Aprendizado
+<p align="left">
+  <img width="600" height="300" src="assets/img/aprendizado.png">
+</p>
 
 # :camera: Imagens do Projeto
 * Gif Apresentação do Projeto
